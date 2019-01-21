@@ -124,3 +124,5 @@ server.on('upgrade', (request, socket, head) => {
 })
 
 server.listen(PORT);
+
+console.log(`server listening on ${PORT}`);
