@@ -7,7 +7,7 @@ import "./App.css";
 
 class App extends Component {
   componentDidMount() {
-    const provider = new WebsocketProvider("wss://yjs-react-example.herokuapp.com/");
+    const provider = new WebsocketProvider("wss://yjs-react-example.herokuapp.com/");// change to 'ws://localhost:3000'
     const ydocument = provider.get("textarea");
     const type = ydocument.define("textarea", YText);
     const binding = new TextareaBinding(type, this.refs.share);

@@ -7,6 +7,7 @@ yjs-react-example
 git clone https://github.com/KoyamaSohei/yjs-react-example
 cd yjs-react-example
 yarn
+/ * change url in App.js. see App.js comment. */
 yarn build
 yarn serve
 ```
