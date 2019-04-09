@@ -1,12 +1,14 @@
 {
   "name": "yjs-react-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "author": "KoyamaSohei, <https://github.com/KoyamaSohei>",
   "dependencies": {
     "express": "^4.16.4",
     "express-ws": "^4.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-quill": "^1.3.3",
     "react-scripts": "2.1.3",
     "yjs": "^13.0.0-76"
   },
@@ -26,5 +28,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
+  ],
+  "contributors": [
+    {
+      "name": "Israel Laguan, <https://github.com/Israel-Laguan>",
+      "email": "israellaguan@gmail.com",
+      "url": "https://israel-laguan.github.io/"
+    }
   ]
 }
