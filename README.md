@@ -1,6 +1,8 @@
 yjs-react-example
 =============
 
+Collaborative text editing app, built with React, Express, Quill, and Yjs.
+
 ## setup
 
 ```
